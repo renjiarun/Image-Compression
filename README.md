@@ -17,9 +17,3 @@ The following MATLAB toolboxes are required:
 - Minimum 8 GB RAM
 - 4-core CPU or better recommended
 
-## Installation Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/renjiarun/Image-Compression.git
-   cd Image-Compression
