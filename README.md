@@ -13,11 +13,6 @@ The following MATLAB toolboxes are required:
 - Signal Processing Toolbox
 - Statistics and Machine Learning Toolbox
 
-### External Dependencies
-If the project relies on external libraries, specify them here:
-- External Library 1: [Link or Description]
-- External Library 2: [Link or Description]
-
 ### Hardware Requirements
 - Minimum 8 GB RAM
 - 4-core CPU or better recommended
