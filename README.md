@@ -5,7 +5,7 @@ utilizes PCA and SVD along with wavelet transforms for residual image compressio
 ## Requirements and Dependencies
 
 ### MATLAB Version
-- Tested with MATLAB R2023b. Compatibility with earlier versions is not guaranteed.
+- Tested with MATLAB R2024a. Compatibile with earlier versions. 
 
 ### Required Toolboxes
 The following MATLAB toolboxes are required:
