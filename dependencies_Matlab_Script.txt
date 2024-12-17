@@ -13,25 +13,11 @@ Toolbox: Signal Processing Toolbox
 Version: 8.0
 Product Number: 3
 
-
-Methodology: Entropy Minimization with PCA and SVD
-
-Steps in Workflow of RCAD_SVD.m and RCAD_PCA.m:  
-
-i) The process starts with reading the input image.
-
-ii) R-CAD Method: Row-wise and column-wise differences are computed by implementing the R-CAD algorithm to generate residual images.
-
-iii) Wavelet Transformation: Haar Wavelet Transform is applied to the residual image to decompose it into sub-bands (e.g., LL, HL, LH, HH).
-
-iv) Quantization with PCA and SVD: The script RCAD_SVD.m and RCAD_PCA.m applies PCA to HH band respectively for effective quantization. 
-
-v) Inverse Transformation: The quantized residual image undergoes an inverse wavelet transform and inverse iR-CAD method to reconstruct the original image.
-
-vi) Evaluation benchmarks (PSNR/SSIM/MSE):   a)PSNR (Peak Signal-to-Noise Ratio): Measures quality.
-                                              b)SSIM (Structural Similarity Index): Measures structural similarity.
-
 Workflow for Implementing RCAD_SVD.m and RCAD_PCA.m:
+
+MATLAB Workflow
+Input Image → R-CAD Method → Wavelet Transform → Quantization (PCA/SVD) → Inverse Transform → Reconstruction → Evaluation (PSNR/SSIM/MSE)
+
 
 Step 1: Environment Setup:
 
