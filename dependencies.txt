@@ -1,14 +1,14 @@
-Dependencies for RCAD_SVD.m Script
+# Dependencies for RCAD_SVD.m Script
 
-Required Files:
-RCAD_SVD.m
+##Required Files:
+###RCAD_SVD.m
 
-Dependencies for RCAD_PCA.m Script
+# Dependencies for RCAD_PCA.m Script
 
-Required Files:
-RCAD_PCA.m
+##Required Files:
+###RCAD_PCA.m
 
-Required Toolboxes for RCAD_SVD.m and RCAD_PCA.m:
+#Required Toolboxes for RCAD_SVD.m and RCAD_PCA.m:
 Toolbox: Image Processing Toolbox
 Version: 11.4
 Product Number: 49
@@ -17,7 +17,7 @@ Toolbox: Signal Processing Toolbox
 Version: 8.0
 Product Number: 3
 
-Dependencies for Y-Network Autoencoder Script
+#Dependencies for Y-Network Autoencoder Script
 
 tensorflow: Version: 2.17.1 # For building and training the model
 opencv-python-headless: Version: 4.10.0.84  # For image processing
