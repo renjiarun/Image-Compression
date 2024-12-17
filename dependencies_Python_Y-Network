@@ -1,0 +1,36 @@
+Dependencies for Y-Network Autoencoder Script:
+
+tensorflow: Version: 2.17.1 # For building and training the model
+opencv-python-headless: Version: 4.10.0.84  # For image processing
+numpy: Version: 1.26.4 # For numerical computations
+matplotlib: Version: 3.8.0 # For visualizing images and results
+
+Workflow for Implementing Y-Net Autoencoder in Python:
+
+Python Y-Net Workflow:
+Input Image →Y-Net-> Encoder → Latent Code → Decoder → Reshape → UpSampling and Conv2D → Reconstructed Image → Save/Visualize Output
+
+Step 1: Environment Setup:
+a)  Install Python 3.x and required libraries.
+b)  Ensure access to a GPU or CPU for training the neural network (TensorFlow).
+
+Step 2: Prepare the Input Data:
+a)  Use the sample images from dataset cited in the manuscript as input.
+b)  Images should be resized to 256x256 for compatibility.
+c)  Place the images in a directory (e.g., ./input_images/).
+
+Step 3: Define and Train the Y-Net Autoencoder:
+a) Copy and paste the Python Code provided in the repository as Ynet_Autoencoder.ipynb.
+b) Define the two branches of Y-network
+c)  Run the script to:
+    i)  Define the Encoder and Decoder architecture
+    ii)  Apply Reshape, UpSampling2D, and Convolution layers
+    iii)  Compile the model using Adam Optimizer with MSE Loss
+    iv)  Train the model on the input image
+    v)  Save the trained model
+
+Step 4: Visualize and Save Results:
+a)  The reconstructed image is saved in the specified directory:
+    Example: /content/gdrive/MyDrive/jpg_Set5/
+b)  Display the original and reconstructed images for comparison:
+
