@@ -1,6 +1,6 @@
 Dependencies for RCAD_SVD.m and RCAD_PCA.m MATLAB Script:
 
-Required Files: The scripts are self-contained and rely exclusively on MATLAB's built-in functions, requiring no external dependencies. They are also compatible with                      earlier versions of MATLAB. Sample images from the datasets cited in the manuscript can be used to execute the code.
+Required Files: The scripts are self-contained and rely exclusively on MATLAB's built-in functions, requiring no external dependencies. They are also compatible with earlier versions of MATLAB. Sample images from the datasets cited in the manuscript can be used to execute the code.
 
 Required Matlab Toolboxes for RCAD_SVD.m:
 
