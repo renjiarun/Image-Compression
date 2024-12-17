@@ -20,7 +20,7 @@ Steps in Workflow of RCAD_SVD.m and RCAD_PCA.m:
 
 i)  The process starts with reading the input image.
 
-ii) R-CAD Method: Row-wise and column-wise differences are computed by implementing the R-CAD algorithm to generate residual images.These residuals reduce redundancy and focus on variations within the image.
+ii) R-CAD Method: Row-wise and column-wise differences are computed by implementing the R-CAD algorithm to generate residual images.
 
 iii) Wavelet Transformation: Haar Wavelet Transform is applied to the residual image to decompose it into sub-bands (e.g., LL, HL, LH, HH). The transformation separates the image into low-frequency and high-frequency components.
 
