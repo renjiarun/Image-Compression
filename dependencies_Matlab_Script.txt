@@ -1,0 +1,29 @@
+Dependencies for RCAD_SVD.m and RCAD_PCA.m MATLAB Script:
+
+Required Files: The scripts are self-contained and rely exclusively on MATLAB's built-in functions, requiring no external dependencies. They are also compatible with                      earlier versions of MATLAB. Sample images from the datasets cited in the manuscript can be used to execute the code.
+
+Required Matlab Toolboxes for RCAD_SVD.m:
+
+Toolbox: Image Processing Toolbox
+Version: 11.4
+Product Number: 49
+
+Required Matlab Toolboxes for RCAD_PCA.m:
+Toolbox: Signal Processing Toolbox
+Version: 8.0
+Product Number: 3
+
+
+Methodology 1: Entropy Minimization with PCA and SVD
+
+Steps in Workflow of RCAD_SVD.m and RCAD_PCA.m:  
+
+i)  The process starts with reading the input image.
+ii) R-CAD Method:                     Row-wise and column-wise differences are computed by implementing the R-CAD algorithm to generate residual images.These residuals                                          reduce redundancy and focus on variations within the image.
+iii)  Wavelet Transformation:         Haar Wavelet Transform is applied to the residual image to decompose it into sub-bands (e.g., LL, HL, LH, HH).
+                                      The transformation separates the image into low-frequency and high-frequency components.
+iv)  Quantization with PCA and SVD:   The HH band (high-frequency band) is selected for quantization.PCA (Principal Component Analysis) and SVD (Singular Value                                                  Decomposition) are applied to compress and encode the HH band further. Quantization reduces the entropy by retaining only the most                                         significant components. The script RCAD_SVD.m applies quantization to HH band by applying the SVD method. The script RCAD_PCA.m                                            applies PCA to HH band for effective quantization.  
+v)  Inverse Transformation:           The quantized residual image undergoes an Inverse Wavelet Transform and inverse iR-CAD method to reconstruct the residual image.
+                                      From the residual image, the Reconstructed Image is generated.
+vi)  Evaluation of (PSNR/SSIM/MSE):   a)PSNR (Peak Signal-to-Noise Ratio): Measures quality.
+                                      b)SSIM (Structural Similarity Index): Measures structural similarity.
