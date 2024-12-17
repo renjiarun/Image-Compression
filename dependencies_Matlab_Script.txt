@@ -14,19 +14,59 @@ Version: 8.0
 Product Number: 3
 
 
-Methodology 1: Entropy Minimization with PCA and SVD
+Methodology: Entropy Minimization with PCA and SVD
 
 Steps in Workflow of RCAD_SVD.m and RCAD_PCA.m:  
 
-i)  The process starts with reading the input image.
+i) The process starts with reading the input image.
 
 ii) R-CAD Method: Row-wise and column-wise differences are computed by implementing the R-CAD algorithm to generate residual images.
 
 iii) Wavelet Transformation: Haar Wavelet Transform is applied to the residual image to decompose it into sub-bands (e.g., LL, HL, LH, HH).
 
-iv)  Quantization with PCA and SVD: The script RCAD_SVD.m applies quantization to HH band by applying the SVD method. The script RCAD_PCA.m applies PCA to HH band for effective quantization. 
+iv) Quantization with PCA and SVD: The script RCAD_SVD.m and RCAD_PCA.m applies PCA to HH band respectively for effective quantization. 
 
-v)  Inverse Transformation: The quantized residual image undergoes an inverse wavelet transform and inverse iR-CAD method to reconstruct the original image.
+v) Inverse Transformation: The quantized residual image undergoes an inverse wavelet transform and inverse iR-CAD method to reconstruct the original image.
 
-vi)  Evaluation benchmarks (PSNR/SSIM/MSE):   a)PSNR (Peak Signal-to-Noise Ratio): Measures quality.
+vi) Evaluation benchmarks (PSNR/SSIM/MSE):   a)PSNR (Peak Signal-to-Noise Ratio): Measures quality.
                                               b)SSIM (Structural Similarity Index): Measures structural similarity.
+
+Workflow for Implementing RCAD_SVD.m and RCAD_PCA.m:
+
+Step 1: Environment Setup:
+
+a)  Ensure MATLAB is installed (any earlier version compatible with the scripts).
+
+Verify the required MATLAB Toolboxes:
+Image Processing Toolbox (Version 11.4, Product Number 49)
+Signal Processing Toolbox (Version 8.0, Product Number 3)
+
+b)  Place the RCAD_SVD.m and RCAD_PCA.m files in your MATLAB working directory.
+
+Step 2: Input Data Preparation
+
+a)  Use sample images from the dataset referenced in the manuscript.
+b)  Place the images in the MATLAB working directory or provide the full path to the script.
+c)  Ensure the images are in standard formats such as .jpg or .png.
+
+Step 3: Execute the Code
+
+a)  Open MATLAB and navigate to the folder containing RCAD_SVD.m and RCAD_PCA.m.
+b)  Use the Command Window or Editor.
+c)  For SVD-based Entropy Minimization:
+    Run the following script:
+    RCAD_SVD.m
+    For PCA-based Entropy Minimization:
+    Run the following script:
+    RCAD_PCA.m
+d)  Output of Each Script:
+    i)  Residual Image Computation
+    ii)  Wavelet Transformation into LL, HL, LH, HH bands
+    iii) Quantization using SVD (RCAD_SVD.m) or PCA (RCAD_PCA.m)
+    iv)  Image Reconstruction using Inverse Wavelet and R-CAD methods
+    v)  Evaluation Metrics: PSNR, SSIM, MSE are displayed as output.
+
+Step 4: Review the Results
+
+a)  The reconstructed images and evaluation metrics (PSNR, SSIM, and MSE) will be displayed on the screen.
+b)  Save the output images for comparison.
