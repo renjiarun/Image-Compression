@@ -15,29 +15,23 @@ Product Number: 3
 
 Workflow for Implementing RCAD_SVD.m and RCAD_PCA.m:
 
-MATLAB Workflow
+MATLAB Workflow:
 Input Image → R-CAD Method → Wavelet Transform → Quantization (PCA/SVD) → Inverse Transform → Reconstruction → Evaluation (PSNR/SSIM/MSE)
 
-
 Step 1: Environment Setup:
+a)  Ensure MATLAB is installed (any earlier version compatible with the scripts)
+    Verify the required MATLAB Toolboxes:
+    Image Processing Toolbox (Version 11.4, Product Number 49)
+    Signal Processing Toolbox (Version 8.0, Product Number 3)
+b)  Place the RCAD_SVD.m and RCAD_PCA.m files in your MATLAB working directory
 
-a)  Ensure MATLAB is installed (any earlier version compatible with the scripts).
+Step 2: Input Data Preparation:
+a)  Use sample images from the dataset referenced in the manuscript
+b)  Place the images in the MATLAB working directory or provide the full path to the script
+c)  Ensure the images are in standard formats such as .jpg or .png
 
-Verify the required MATLAB Toolboxes:
-Image Processing Toolbox (Version 11.4, Product Number 49)
-Signal Processing Toolbox (Version 8.0, Product Number 3)
-
-b)  Place the RCAD_SVD.m and RCAD_PCA.m files in your MATLAB working directory.
-
-Step 2: Input Data Preparation
-
-a)  Use sample images from the dataset referenced in the manuscript.
-b)  Place the images in the MATLAB working directory or provide the full path to the script.
-c)  Ensure the images are in standard formats such as .jpg or .png.
-
-Step 3: Execute the Code
-
-a)  Open MATLAB and navigate to the folder containing RCAD_SVD.m and RCAD_PCA.m.
+Step 3: Execute the Code:
+a)  Open MATLAB and navigate to the folder containing RCAD_SVD.m and RCAD_PCA.m
 b)  Use the Command Window or Editor.
 c)  For SVD-based Entropy Minimization:
     Run the following script:
@@ -50,9 +44,8 @@ d)  Output of Each Script:
     ii)  Wavelet Transformation into LL, HL, LH, HH bands
     iii) Quantization using SVD (RCAD_SVD.m) or PCA (RCAD_PCA.m)
     iv)  Image Reconstruction using Inverse Wavelet and R-CAD methods
-    v)  Evaluation Metrics: PSNR, SSIM, MSE are displayed as output.
+    v)  Evaluation Metrics: PSNR, SSIM, MSE are displayed as output
 
-Step 4: Review the Results
-
-a)  The reconstructed images and evaluation metrics (PSNR, SSIM, and MSE) will be displayed on the screen.
-b)  Save the output images for comparison.
+Step 4: Review the Results:
+a)  The reconstructed images and evaluation metrics (PSNR, SSIM, and MSE) will be displayed on the screen
+b)  Save the output images for comparison
