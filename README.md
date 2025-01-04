@@ -28,6 +28,8 @@ S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net 
 
 [1] S. Renji and A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *The Visual Computer*, vol. XX, no. YY, pp. ZZ-ZZ, 2025. [Online]. Available: [https://example.com](https://example.com)
 
+## How to Use:
+This `https://example.com`, will be replaced with the actual link to the article once it's available online.
 
 **BibTeX:**
 ```bibtex
@@ -42,9 +44,6 @@ S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net 
 
 
 
-
-## How to Use:
-1.  This `https://example.com`, will be replaced with the actual link to the article once it's available online.
 
 
 
