@@ -17,3 +17,31 @@ The following MATLAB toolboxes are required:
 - Minimum 8 GB RAM
 - 4-core CPU or better recommended
 
+## Citation
+
+If you use this work in your research, please cite:
+
+**APA Style:**
+S. Renji, A. C. Jose (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*. [Link to article](https://example.com)
+
+**IEEE Style:**
+[1] S. Renji, A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *The Visual Computer*, 2025. [Online]. Available: [https://example.com](https://example.com)
+
+**BibTeX:**
+```bibtex
+@article{thevisualco2025,
+  author = {S. Renji, A. C. Jose},
+  title = {YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms},
+  journal = {The Visual Computer},
+  year = {2025},
+  url = {https://example.com}
+}
+
+
+---
+
+### How to Use:
+1. Replace `https://example.com` with the actual link to the article if it's available online.
+
+
+
