@@ -23,15 +23,16 @@ If you use this work in your research, please cite:
 
 **APA Style:**
 S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*. [Link to article](https://example.com)
-S. Renji, A. C. Jose (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*. [Link to article](https://example.com)
 
 **IEEE Style:**
-[1] S. Renji, A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *The Visual Computer*, 2025. [Online]. Available: [https://example.com](https://example.com)
+
+[1] S. Renji and A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *The Visual Computer*, vol. XX, no. YY, pp. ZZ-ZZ, 2025. [Online]. Available: [https://example.com](https://example.com)
+
 
 **BibTeX:**
 ```bibtex
 @article{thevisualco2025,
-  author = {S. Renji, A. C. Jose},
+  author = {S. Renji and A. C. Jose},
   title = {YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms},
   journal = {The Visual Computer},
   year = {2025},
@@ -39,10 +40,11 @@ S. Renji, A. C. Jose (2025). *YAAN: Enhanced Image Compression through Y-Net Aug
 }
 
 
+
 ---
 
 ### How to Use:
-1. Replace `https://example.com` with the actual link to the article once it's available online.
+1.  This `https://example.com`, will be replaced with the actual link to the article once it's available online.
 
 
 
