@@ -41,9 +41,9 @@ S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net 
 
 
 
----
 
-### How to Use:
+
+## How to Use:
 1.  This `https://example.com`, will be replaced with the actual link to the article once it's available online.
 
 
