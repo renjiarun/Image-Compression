@@ -22,7 +22,7 @@ The following MATLAB toolboxes are required:
 If you use this work in your research, please cite:
 
 **APA Style:**
-S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*. [Link to article](https://example.com)
+S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*.[https://example.com](https://example.com)
 
 **IEEE Style:**
 
