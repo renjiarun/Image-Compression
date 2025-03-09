@@ -22,11 +22,11 @@ The following MATLAB toolboxes are required:
 If you use this work in your research, please cite:
 
 **APA Style:**
-S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. *The Visual Computer*. [https://example.com](https://example.com)
+S. Renji, & A. C. Jose. (2025). *YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms*. * Journal Name*. [https://example.com](https://example.com)
 
 **IEEE Style:**
 
-[1] S. Renji and A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *The Visual Computer*, vol. XX, no. YY, pp. ZZ-ZZ, 2025. [Online]. Available: [https://example.com](https://example.com)
+[1] S. Renji and A. C. Jose, "YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms," *Journal Name*, vol. XX, no. YY, pp. ZZ-ZZ, 2025. [Online]. Available: [https://example.com](https://example.com)
 
 ## How to Use:
 This `https://example.com`, will be replaced with the actual link to the article once it's available online.
@@ -36,7 +36,7 @@ This `https://example.com`, will be replaced with the actual link to the article
 @article{thevisualcomputer2025,
   author = {S. Renji and A. C. Jose},
   title = {YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms},
-  journal = {},
+  journal = {Journal Name},
   year = {2025},
   url = {https://example.com}
 }
