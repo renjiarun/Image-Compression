@@ -36,7 +36,7 @@ This `https://example.com`, will be replaced with the actual link to the article
 @article{thevisualcomputer2025,
   author = {S. Renji and A. C. Jose},
   title = {YAAN: Enhanced Image Compression through Y-Net Augmented Autoencoder and Data-Driven Residual Transforms},
-  journal = {The Visual Computer},
+  journal = {},
   year = {2025},
   url = {https://example.com}
 }
